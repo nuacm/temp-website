@@ -23,6 +23,9 @@ a:hover {
 	margin: 50px auto 80px;
 }
 
+.footer {
+	height: 100px;
+}
 
 /* On small screens, center buttons and shrink headers */
 @media (max-width: 549px) {
