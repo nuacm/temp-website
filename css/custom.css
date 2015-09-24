@@ -1,0 +1,61 @@
+body {
+	font-family: "Open Sans", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h3 {
+	margin-top: 46px;
+}
+
+p {
+	font-size: 16px;
+}
+
+a, a:visited {
+	color: #34b4cd;
+}
+
+a:hover {
+	color: #288b9f;
+}
+
+.header {
+	margin: 50px auto 80px;
+}
+
+
+/* On small screens, center buttons and shrink headers */
+@media (max-width: 549px) {
+	.logo {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.buttons {
+		margin-top: 26px;
+		text-align: center;
+	}
+
+	.buttons a {
+		font-size: 26px;
+		padding-left: 3px;
+		padding-right: 3px;
+	}
+}
+
+
+/* On big screens, float buttons right */
+@media (min-width: 550px) {
+	.buttons {
+		margin-top: 10px;
+		display: inline-block;
+		text-align: justify;
+		float: right;
+	}
+
+	.buttons a {
+		font-size: 32px;
+		padding-left: 4px;
+		padding-right: 4px;
+	}
+}
