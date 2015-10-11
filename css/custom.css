@@ -47,6 +47,11 @@ a:hover {
 	}
 }
 
+@media (max-width: 749px) {
+	p {
+		text-align: left;
+	}
+}
 
 /* On big screens, float buttons right */
 @media (min-width: 550px) {
